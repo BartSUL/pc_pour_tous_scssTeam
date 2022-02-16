@@ -195,7 +195,8 @@ img {
   border-radius: 50%;
 }
 #titre {
-  font-size: var(--normal-font-size);
+  font-size: var(--big-font-size);
+  font-family: var(--body-font-fantasy);
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -261,6 +262,7 @@ img {
 .home__title {
   font-family: var(--body-font-fantasy);
   font-size: var(--big-font-size);
+  padding: 0 0 0 8rem;
 }
 
 .home__title-color {
@@ -268,9 +270,19 @@ img {
 }
 
 .home__img {
-  width: 400px;
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
   bottom: 10%;
-  border: 1px solid red;
+}
+
+.button__bienvenue {
+    border-radius: 45%;
+    padding: 1rem;
+    margin-left: 450px;
+    margin-top: 500px;
+    background-color: var(--cinquieme-couleur);
+    color: var(--deuxieme-couleur);
 }
 
 .about__container {
