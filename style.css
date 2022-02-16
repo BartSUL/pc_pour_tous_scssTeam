@@ -292,7 +292,17 @@ img {
   width: 100%;
 }
 
+/* ===== FOOTER =====*/
 
+.webtoon{
+  width: 30%;
+}
+
+.text{
+  color: #fff;
+  display: flex;
+  text-align: top;
+}
 
 
 
