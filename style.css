@@ -288,6 +288,17 @@ img {
   width: 300px;
 }
 
+.slide-block{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--cinquieme-couleur);
