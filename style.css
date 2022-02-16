@@ -271,18 +271,26 @@ img {
 
 .home__img {
   display: flex;
-  justify-content:space-around;
+  justify-content: center;
   width: 100%;
+  height: auto;
   bottom: 10%;
 }
 
 .button__bienvenue {
-    border-radius: 45%;
+    border-radius: 35px;
     padding: 1rem;
-    margin-left: 450px;
-    margin-top: 500px;
+    margin-left: 35.50rem;
     background-color: var(--cinquieme-couleur);
     color: var(--deuxieme-couleur);
+    cursor: pointer;
+    outline: none;
+}
+
+.button__bienvenue:hover {
+    background-color: var(--toisieme-couleur);
+    color: var(--deuxieme-couleur);
+    box-shadow: 0px 10px 36px rgba(253, 251, 251, 0.15);   
 }
 
 .about__container {
