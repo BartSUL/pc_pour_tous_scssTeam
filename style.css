@@ -223,6 +223,13 @@ img {
   box-shadow: 0px 10px 36px rgba(253, 251, 251, 0.15);
 }
 
+.carousel {
+  display: flex;
+  justify-self: center;
+  height: 450px;
+  width: 350px;
+}
+
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
@@ -311,10 +318,6 @@ img {
   display: flex;
   text-align: top;
 }
-
-
-
-
 
 
 /* ===== FOOTER =====*/
