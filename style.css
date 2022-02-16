@@ -348,6 +348,96 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+/*======== HOME LIVRE =========*/
+
+.homel__container {
+  position: relative;
+  row-gap: 2.5rem;
+}
+
+.homel__img {
+  width: 150rem;
+}
+
+.homel__img-bg {
+  background-color: none;
+  width:35rem;
+  height: auto;
+  padding-bottom: 2rem;
+  display: flex-end;
+  justify-content: center;
+  align-items: flex-end;
+  justify-self: flex-end;
+  transform: translateX(1.5rem);
+}
+
+.homel__title {
+  font-family: var(--body-font-fantasy);
+  font-size: 2.5rem;
+  font-weight: var(--font-bold);
+  margin-bottom: var(--mb-1);
+}
+
+.homel__description {
+  background-color: var(--deuxieme-couleur);
+  margin-bottom: var(--mb-1-5);
+}
+
+.homel__price {
+  display: inline-block;
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-medium);
+  color: var(--deuxieme-couleur);
+  margin-bottom: var(--mb-3);
+}
+
+.homel__btns {
+  display: flex;
+  align-items: center;
+}
+
+.homel__button {
+  box-shadow: 0 12px 24px hsla(0, 0%, 10%, .2);
+}
+
+.homel__social {
+  position: absolute;
+  top: 35%;
+  right: -2.5rem;
+  display: flex;
+  column-gap: 1rem;
+  color: var(--deuxieme-couleur);
+  font-family: var(--body-font-simple);
+}
+
+
+/*=============== BUTTONS ===============*/
+.buttonl {
+  display: inline-block;
+  background-color: var(--button-color);
+  color: #FFF;
+  padding: 1.25rem 2rem;
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
+
+.buttonl:hover {
+  background-color: var(--button-color-alt);
+}
+
+.buttonl--gray {
+  background-color: hsl(0, 0%, 75%);
+  color: var(--title-color);
+}
+
+.buttonl--gray:hover {
+  background-color: hsl(0, 0%, 63%);
+}
+
+.buttonl--small {
+  padding: 1rem 1.5rem;
+}
+
 /* ===== MEDIA QUERIES =====*/
 @media screen and (max-width: 320px) {
   .home {
