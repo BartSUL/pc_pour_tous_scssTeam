@@ -188,12 +188,7 @@ img {
 
 /* ==== ANIME ==== */
 
-.anime {
-  width: 190px;
-  height: 190px;
-  background-color: var(--cinquieme-couleur);
-  border-radius: 50%;
-}
+
 #titre {
   font-size: var(--big-font-size);
   font-family: var(--body-font-fantasy);
