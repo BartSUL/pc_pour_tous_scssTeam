@@ -195,7 +195,8 @@ img {
   border-radius: 50%;
 }
 #titre {
-  font-size: var(--normal-font-size);
+  font-size: var(--big-font-size);
+  font-family: var(--body-font-fantasy);
   display: flex;
   justify-content: center;
   padding: 20px;
