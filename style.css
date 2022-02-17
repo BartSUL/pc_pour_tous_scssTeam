@@ -57,6 +57,8 @@ body {
   background-color: var(--toisieme-couleur);
 }
 
+
+
 h1 {
   margin: 0;
   font: var(--body-font-fantasy);
@@ -157,6 +159,8 @@ img {
   cursor: pointer;
   outline: none;
 }
+
+
 /*=== BUTTONS ===*/
 .button {
   display: inline-block;
@@ -200,6 +204,8 @@ img {
   height: 190px;
   border-radius: 50%;
 }
+
+
 #titre{
   display: flex;
   justify-content: center;
@@ -209,16 +215,17 @@ img {
   background-color: #5C161D;
 }
 #na:hover{
-  background-color: #c5a543;
+  background-color: #53461e;
 }
 #on:hover{
   background-color: grey;
 }
 #one:hover{
-  background-color: #3f95a7;
+  background-color: #1079a3;
 }
 #manga:hover{
-  background-color: grey;
+  background-color: blue;
+  
 }
 
 
