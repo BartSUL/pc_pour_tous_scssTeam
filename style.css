@@ -448,43 +448,46 @@ img {
 
 /* ===== FORM INSCRIPTION =====*/
 
-form {
+.inscription {
   margin: 0 auto;
   width: 500px;
   padding: 1em;
-  border: 1px solid #CCC;
+  border: none;
   border-radius: 5px;
-  background-color: #f2f2f2;
-
- 
+  background-color: var(--cinquieme-couleur);
+  color: var(--deuxieme-couleur);
 }
-div#lab{
+
+.div#lab{
 	display: block; /* La balise devient de type block. */
 	width: 200px;
 }
 
-form button
+.form .button
 {
   height: 50px;
   width: 200px
 }
 
-
-
-input:invalid {
-  background-color: #ffdddd;
+.img-fluid{
+  display: flex;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
 }
 
-  
-input:valid {
-  background-color: #ddffdd;
+.input:invalid {
+  background-color: #ffc5c5;
 }
  
-input:required {
+.input:valid {
+  background-color: #ddffdd;
+}
+
+.input:required {
   border-color: #800000;
   border-width: 3px;
 }
-
 
 /* ===== MEDIA QUERIES =====*/
 @media screen and (max-width: 320px) {
