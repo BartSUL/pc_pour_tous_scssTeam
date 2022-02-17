@@ -198,6 +198,7 @@ img {
 
 
 
+
 #titre{
   display: flex;
   justify-content: center;
@@ -216,7 +217,8 @@ img {
   background-color: #3f95a7;
 }
 #manga:hover{
-  background-color: grey;
+  background-color: rgb(0, 0, 0);
+  color: var(--deuxieme-couleur);
 }
 
 
