@@ -296,7 +296,16 @@ img {
 }
 
 .slide-block{
-  width: 100%;
+  margin: 0 45px;
+  padding: 10px;
+}
+
+.carousel {
+  width: 30rem;
+  height: auto;
+  display: flexbox;
+  justify-content: center;
+
 }
 
 /* ===== FOOTER =====*/
