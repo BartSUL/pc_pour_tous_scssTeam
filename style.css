@@ -154,6 +154,8 @@ img {
   display: inline;
   width: 350px;
   height: auto;
+  cursor: pointer;
+  outline: none;
 }
 /*=== BUTTONS ===*/
 .button {
