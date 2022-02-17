@@ -1,53 +1,94 @@
-<form method="post" class="mb-5">
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>webtoon pour tous</title>
+  </head>
+   <!-- =============================== INSCRIPTION =============================== -->
+   <section class="inscription section" id="inscription">
+    <h2 class="section-title">Inscription</h2>
+
+<div class=""container>
+  <form method="post" class="">
     <div class="form-group">
-        <label for="">Pseudo</label>
-        <input type="text" name="pseudo" class="form-control" required value="" >
+      <label for="">Pseudo</label>
+      <input type="text" name="pseudo" class="form-control" required value="" />
     </div>
 
     <div class="form-group">
-        <label for="">Mot de passe</label>
-        <input type="text" name="mdp" class="form-control" >
+      <label for="">Mot de passe</label>
+      <input type="text" name="mdp" class="form-control" />
     </div>
 
     <div class="form-group">
-        <label for="">E-mail</label>
-        <input type="email" name="email" class="form-control" required value="" />
+      <label for="">E-mail</label>
+      <input type="email" name="email" class="form-control" required value="" />
     </div>
 
     <div class="form-group">
-        <label for="">Civilité</label><br>
-        <label for="homme">M.</label> 
-        <input type="radio" name="civilite" id="homme" class="form-control" required value="h" />
-        <label for="femme">Mme</label> 
-        <input type="radio" name="civilite" id="femme" class="form-control" required value="f" />
+      <label for="">Civilité</label><br />
+      <label for="homme">M.</label>
+      <input
+        type="radio"
+        name="civilite"
+        id="homme"
+        class="form-control"
+        required
+        value="h"
+      />
+      <label for="femme">Mme</label>
+      <input
+        type="radio"
+        name="civilite"
+        id="femme"
+        class="form-control"
+        required
+        value="f"
+      />
     </div>
 
     <div class="form-group">
-        <label for="">Prénom</label>
-        <input type="text" name="prenom" class="form-control" required value="" />
+      <label for="">Prénom</label>
+      <input type="text" name="prenom" class="form-control" required value="" />
     </div>
 
     <div class="form-group">
-        <label for="">Nom</label>
-        <input type="text" name="nom" class="form-control" required value="" />
+      <label for="">Nom</label>
+      <input type="text" name="nom" class="form-control" required value="" />
     </div>
 
     <div class="form-group">
-        <label for="">Adresse</label>
-        <textarea name="adresse" id="" class="form-control" ></textarea>
+      <label for="">Adresse</label>
+      <textarea name="adresse" id="" class="form-control"></textarea>
     </div>
 
     <div class="form-group">
-        <label for="">Code Postal</label>
-        <input type="text" name="code_postal" pattern="[0-9]{5}" class="form-control" required value="" />
+      <label for="">Code Postal</label>
+      <input
+        type="text"
+        name="code_postal"
+        pattern="[0-9]{5}"
+        class="form-control"
+        required
+        value=""
+      />
     </div>
 
     <div class="form-group">
-        <label for="">Ville</label>
-        <input type="text" name="ville" class="form-control" required value="" />
+      <label for="">Ville</label>
+      <input type="text" name="ville" class="form-control" required value="" />
     </div>
 
-    <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> </button>
+    <button type="submit" class="btn btn-primary" id="btn_form"><i class="fa fa-save"></i>Envoie</button>
     <a href="" class="btn btn-danger"><i class="fa fa-reply"></i> Annuler</a>
-
-</form>
+  </form>
+</div>

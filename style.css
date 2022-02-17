@@ -231,7 +231,7 @@ img {
 }
 
 /* ===== CONTACT =====*/
-.contact__input {
+.form-control {
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
@@ -437,6 +437,9 @@ img {
 .buttonl--small {
   padding: 1rem 1.5rem;
 }
+
+/* ===== FORM =====*/
+
 
 /* ===== MEDIA QUERIES =====*/
 @media screen and (max-width: 320px) {
