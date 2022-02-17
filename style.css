@@ -150,7 +150,13 @@ img {
 }
 
 /*=== NAV ===*/
-
+.logo__nav {
+  display: inline;
+  width: 350px;
+  height: auto;
+  cursor: pointer;
+  outline: none;
+}
 /*=== BUTTONS ===*/
 .button {
   display: inline-block;
