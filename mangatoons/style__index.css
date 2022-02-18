@@ -1,0 +1,19 @@
+.contenaire {
+  border: 2px solid red;
+}
+
+.col {
+  border: 2px solid green;
+}
+
+.row {
+  border: 2px solid purple;
+}
+
+.navbar {
+  border: 2px solid black;
+}
+
+.footer {
+  border: 2px solid orange;
+}
